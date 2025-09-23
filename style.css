@@ -1,0 +1,312 @@
+
+ .home{
+ background-image:url(WhatsApp\ Image\ 2025-09-21\ at\ 21.11.29_4a12578c.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    z-index:999;
+    position:sticky;
+    width: 73.37% ;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    background-color: rgb(7, 7, 55);
+}
+ header .brand{
+    color:white;
+    position:sticky;
+    font-size: 3.3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+ header .navigation{
+    position:relative;
+    
+ }
+ header .navigation .navigation-items a{
+    position: relative;
+    color:lightgoldenrodyellow;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-left:  30px;
+    transition: 0.3s ease;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+ }
+ header .navigation .navigation-items a::before{
+    content:'';
+    position:absolute;
+    height: 2px;
+    bottom:-2px;
+    transition: 0.3s ease;
+    background-color:wheat;
+ }
+ header .navigation .navigation-items a:hover::before{
+    width: 100%;  
+    
+ }
+ section{
+    padding: 105px;
+ }
+ .home{
+    position:sticky;
+    min-height: 55vh;
+    display: flex;
+    justify-content:center ;
+    flex-direction:column;
+    color:gold;
+    font-size:xx-large;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .home .content p{
+    color:white;
+    font-weight: 450;
+    font-size:smaller;
+    text-align: center;
+    font-family:cursive;
+ }
+ .about{
+   padding:60px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-size:1.4em;
+    color:white;
+    background-color:rgb(5, 192, 239);
+ }
+
+ .login-container{
+   font-family:'Times New Roman', Times, serif;
+   font-size:large;
+   padding:1rem;
+   border-radius: 15px;
+   box-shadow: 0 8px 20px aqua;
+   width:100%;
+   max-width:400px;
+   background-color:whitesmoke;
+ }
+ .sign h2{
+  color:navy;
+ }
+ .input-group input{
+   display:block;
+   width: 95%;
+   padding:0.6rem;
+   border: 1px solid navy;
+   border-radius: 3px;
+ }
+  .sign button:hover {
+   background-color:lightgoldenrodyellow;
+   cursor:pointer;
+ }
+ .sign button{
+   width:100%;
+   padding:0.5rem;
+   background-color:rgb(85, 195, 238);
+   font-size: 1rem;
+   border-radius: 2px;
+   transition: background-color 0.3s ease;
+ }
+ .register-link{
+   text-align: center;
+ }
+ .sign{
+   background-image: url(WhatsApp\ Image\ 2025-09-21\ at\ 17.31.56_702f6d94.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color:black;
+ }
+ .book{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-image:url(WhatsApp\ Image\ 2025-09-21\ at\ 19.41.34_12058580.jpg) ;
+}
+
+.booking-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+.booking-form h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: navy;
+}
+
+.booking-form input,
+.booking-form select {
+  width: 98%;
+  padding:0.8em;
+  margin-bottom: 1rem;
+  border: 1.8px solid rgb(196, 195, 195);
+  border-radius: 6px;
+  font-size: 1rem;
+  height: 30px;
+}
+
+.booking-form label {
+  margin-bottom: 0.3rem;
+  display: block;
+  color: black;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+  background-color:gold;
+}
+.contact-container{
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(WhatsApp\ Image\ 2025-09-22\ at\ 22.13.31_6b45e6ed.jpg);
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  color:black;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 3rem;
+}
+.office, .branches, .contact, .social-media {
+  background-color: transparent;
+  border:navy;
+  padding: 1.5rem;
+  border-radius: 8px;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 10px rgb(70, 70, 139);
+}
+.contact-container h2{
+  color:navy;
+}
+.explore h1{
+   color:whitesmoke;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.packages-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+.explore {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-image:url(WhatsApp\ Image\ 2025-09-21\ at\ 21.11.30_d98af8d2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.package-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px aquamarine;
+  transition: transform 0.3s ease;
+}
+.package-card:hover {
+  transform: translateY(-5px);
+}
+.package-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.package-card h2 {
+  font-size: 1.2rem;
+  margin: 1rem;
+  color:navy;
+}
+.explore button{
+   width :100%;
+   padding:0.5rem;
+   background-color:aquamarine;
+   font-size: 1rem;
+   transition: background-color 0.3s ease;
+   border:white;
+ }
+ .place {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content:baseline;
+  background-image: url(WhatsApp\ Image\ 2025-09-21\ at\ 19.41.34_12058580.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:black;
+  font-size:20px;
+}
+.place img {
+  border-radius: 10px;
+  height:fit-content;
+  padding: 60px;
+  
+}
+.package-details {
+  padding: 1rem;
+  background:transparent;
+  margin: 1rem;
+  border-radius: 8px;
+}
+.package-details h1,h2{
+  color:navy;
+}
+.package-details ul{
+  list-style-type:square;
+}
+.package-details li {
+  margin: 1rem 0;
+}
+.place button{
+   padding: 0.8em;
+   font-size: 17px;
+   transition: background-color 0.3s ease;
+   border: black;
+   background-color:turquoise;
+   border-radius: 4px;
+}
+
+
+
+ 
+ 
+ 
+   
+
+ 
+ 
+ 
+ 
+ 
+
+
+
